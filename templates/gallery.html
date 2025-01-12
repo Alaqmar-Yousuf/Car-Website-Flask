@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - LUXURY Motors</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='gallery.css') }}">
+</head>
+<body>
+    <nav>
+      <div class="logo-abt">
+        <img
+          src="{{ url_for('static', filename='images/logo.jpg') }}"
+          alt="Logo"
+        />
+      </div>
+      <div><h2 class="other">LUXURY Motors</h2></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Service</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  <header class="hero">
+    <h1>Gallery</h1>
+    <p>Discover the Art of Elegance – Explore Our Luxury Fleet in Stunning Detail.</p>
+    <h2><a href="#1">EXPLORE</a></h2>
+
+</header>
+  <main>
+    <section class="gallery" id="1">
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/ferrari2.jpg') }}" alt="Luxury Car 1">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/lamborghini.jpg') }}" alt="Luxury Car 2">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/lamborghini2.jpg') }}" alt="Luxury Car 3">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/bmw.jpg') }}" alt="Luxury Car 4">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/lexus.jpg') }}" alt="Luxury Car 5">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/gtr.jpg') }}" alt="Luxury Car 5">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/audi.jpg') }}" alt="Luxury Car 5">
+      </div>
+      <div class="gallery-item">
+        <img src="{{ url_for('static', filename='images/mercedes.jpg') }}" alt="Luxury Car 6">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>LUXURY Motors</h3>
+        <p>
+          Welcome to our premium car showcase website, where innovation meets
+          luxury. Explore top-notch vehicles with detailed features, stunning
+          visuals, and personalized options to find your dream car.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><Service href="/services">Service</a></li>
+          <li><Gallery href="/gallery">Gallery</a></li>
+          <li><a href="/about">About</a></li>
+          <li><Contact href="/contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p><strong>Email:</strong> info@LUXURY Motors.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p>
+          <strong>Address:</strong> 123 Babar Azam Street, Dubai
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 LUXURY Motors. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

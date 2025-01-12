@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | LUXURY Motors</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="" /></div>
+    <div><h2>LUXURY Motors</h2></div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <h1>Contact Us</h1>
+    <p>Reach Out to LUXURY Motors – We're Here to Drive Your Experience Forward!</p>
+    <h2><a href="#1">MORE</a></h2>
+
+</header>
+  <h2 class="txt-contact">Contact Us</h2>
+  <div class="container">
+
+    <div class="form-section">
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+
+    <div class="info-section">
+      <div class="info-box">
+        <h3>Our Address</h3>
+        <p>123 Babar Azam Street, Dubai</p>
+      </div>
+      <div class="info-box">
+        <h3>Contact Information</h3>
+        <p>Phone:  +1 234 567 890</p>
+        <p>Email: info@LUXURY Motors.com</p>
+      </div>
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.682833583!2d54.89781208970431!3d25.076280444810326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5cca9ed30825%3A0xddb4ed2e8c087f37!2sFasteR%20Rent%20a%20Car%20Dubai%20-%20Sports%20Car%20%26%20Luxury%20Car%20Rental%20Dubai!5e0!3m2!1sen!2s!4v1732965450809!5m2!1sen!2s" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+            <div class="info-box">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#" title="Facebook">
+            <img src="{{ url_for('static', filename='images/facebook.png') }}" alt="Facebook" />
+          </a>
+          <a href="#" title="Twitter">
+            <img src="{{ url_for('static', filename='images/X.png') }}" alt="Twitter" />
+          </a>
+          <a href="#" title="Instagram">
+            <img src="{{ url_for('static', filename='images/insta.jpg') }}" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>LUXURY Motors</h3>
+        <p>
+          Welcome to our premium car showcase website, where innovation meets
+          luxury. Explore top-notch vehicles with detailed features, stunning
+          visuals, and personalized options to find your dream car.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><Service href="/services">Service</a></li>
+          <li><Gallery href="/gallery">Gallery</a></li>
+          <li><a href="/about">About</a></li>
+          <li><Contact href="/contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p><strong>Email:</strong> info@LUXURY Motors.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p>
+          <strong>Address:</strong> 123 Babar Azam Street, Dubai
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 LUXURY Motors. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

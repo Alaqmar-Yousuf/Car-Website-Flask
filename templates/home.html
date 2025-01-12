@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | LUXURY Motors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    
+  </head>
+  <>
+    <nav>
+      <div class="logo"><img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="" /></div>
+      <div><h2>LUXURY Motors</h2></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <video
+        src="{{ url_for('static', filename='videos/Mclaren.mp4') }}"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+      <h1>LUXURY Motors:</h1>
+        <h3> Where Prestige Meets Performance.</h3>
+      <h2><a href="#1">EXPLORE</a></h2>
+    </div>
+
+    
+
+    <div class="car1" id="1">
+      <img src="{{ url_for('static', filename='images/mclaren.png') }}" alt="" />
+    </div>
+    <div class="text1">
+      <div class="item">
+        <img src="{{ url_for('static', filename='images/speedo.png') }}" alt="" />
+        <p>0 to 100 in 3 seconds</p>
+      </div>
+      <div class="item">
+        <img
+          src="{{ url_for('static', filename='images/engine.png') }}"
+          alt="Image 2"
+        />
+        <p>671 Horse Power</p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('static', filename='images/dollar.png') }}" alt="" />
+        <p>260000 USD</p>
+      </div>
+    </div>
+    <div class="desc">
+      <p>
+        The latest McLaren, the 2024 Artura, is a groundbreaking hybrid supercar
+        designed to balance performance, innovation, and efficiency. It features
+        a 3.0-liter twin-turbo V6 engine paired with an electric motor,
+        delivering a combined output of 671 horsepower and 531 lb-ft of torque.
+        The car accelerates from 0 to 100 km/h (62 mph) in just 3.0 seconds and
+        has a top speed of 205 mph. It can also drive in electric-only mode for
+        up to 31 km at speeds up to 130 km/h, thanks to its 7.4 kWh battery
+        pack.
+      </p>
+    </div>
+    <div class="container-btn">
+      <div class="btn"><a href="#2">NEXT</a></div>
+      <div class="btn2"><a href="">BROWSE MORE</a></div>
+    </div>
+
+    <div class="car2" id="2">
+      <img src="{{ url_for('static', filename='images/mercedes.png') }}" alt="" />
+    </div>
+    <div class="text2">
+      <div class="item2">
+        <img src="{{ url_for('static', filename='images/speedo.png') }}" alt="" />
+        <p>0 to 100 in 3.2 seconds</p>
+      </div>
+      <div class="item2">
+        <img
+          src="{{ url_for('static', filename='images/engine.png') }}"
+          alt=""
+        />
+        <p>791 Horse Power</p>
+      </div>
+      <div class="item2">
+        <img src="{{ url_for('static', filename='images/dollar.png') }}" alt="" />
+        <p>280000 USD</p>
+      </div>
+    </div>
+    <div class="desc2">
+      <p>
+        The 2024 Mercedes-AMG models feature a powerful hybrid performance
+        system, combining high-performance gasoline engines with electric
+        motors. The AMG S 63 E Performance delivers 791 horsepower and 1,055
+        lb-ft of torque with a 4.0L V8 engine and electric motor, achieving 0-60
+        mph in 3.2 seconds.The C 63 S E Performance offers a potent
+        four-cylinder hybrid engine, integrated with Formula 1-inspired
+        technology for exceptional handling. Both models also include luxury
+        interiors with Nappa leather, advanced infotainment systems, and dynamic
+        driving modes for an unmatched driving experience.
+      </p>
+    </div>
+    <div class="container-btn">
+      <div class="btn-1"><a href="#3">NEXT</a></div>
+      <div class="btn-2"><a href="">BROWSE MORE</a></div>
+    </div>
+
+    <div class="car3" id="3">
+      <img src="{{ url_for('static', filename='images/lambo.png') }}" alt="" />
+    </div>
+    <div class="text3">
+      <div class="item3">
+        <img src="{{ url_for('static', filename='images/speedo.png') }}" alt="" />
+        <p>0 to 100 in 2.8 seconds</p>
+      </div>
+      <div class="item3">
+        <img
+          src="{{ url_for('static', filename='images/engine.png') }}"
+          alt=""
+        />
+        <p>769 Horse Power</p>
+      </div>
+      <div class="item3">
+        <img src="{{ url_for('static', filename='images/dollar.png') }}" alt="" />
+        <p>350000 USD</p>
+      </div>
+    </div>
+    <div class="desc3">
+      <p>
+        The Lamborghini Aventador is a legendary supercar known for its striking
+        design, raw performance, and iconic status. Powered by a naturally
+        aspirated 6.5-liter V12 engine, it delivers exhilarating speed, reaching
+        over 217 mph with a 0-100 km/h acceleration in just 2.8 seconds.Its
+        luxurious interior, cutting-edge technology, and variants like the
+        track-focused SVJ and the limited-edition Ultimae have solidified its
+        place as a pinnacle of Lamborghini engineering, leaving an enduring
+        legacy in the world of high-performance automobiles.
+      </p>
+    </div>
+    <div class="container-btn">
+      <div class="btn"><a href="#1">NEXT</a></div>
+      <div class="btn2"><a href="">BROWSE MORE</a></div>
+    </div>
+  
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>LUXURY Motors</h3>
+          <p>
+            Welcome to our premium car showcase website, where innovation meets
+            luxury. Explore top-notch vehicles with detailed features, stunning
+            visuals, and personalized options to find your dream car.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><Service href="/services">Service</a></li>
+            <li><Gallery href="/gallery">Gallery</a></li>
+            <li><a href="/about">About</a></li>
+            <li><Contact href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p><strong>Email:</strong> info@LUXURY Motors.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p>
+            <strong>Address:</strong> 123 Babar Azam Street, Dubai
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 LUXURY Motors. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  </html>

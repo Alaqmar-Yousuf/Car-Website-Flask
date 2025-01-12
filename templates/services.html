@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | LUXURY Motors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='services.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+  <nav>
+    <div class="logo-abt">
+      <img
+        src="{{ url_for('static', filename='images/logo.jpg') }}"
+        alt="Logo"
+      />
+    </div>
+    <div><h2 class="other">LUXURY Motors</h2></div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Service</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+    <header class="hero">
+        <h1>Our Services</h1>
+        <p>Premium Services Tailored to Elevate Your Driving Experience</p>
+        <h2><a href="#1">EXPLORE</a></h2>
+
+    </header>
+    <main class="services-container" id="1">
+        <section class="services-grid">
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service1.jpg') }}" alt="Maintenance" class="service-icon">
+                <h2>Vehicle Maintenance</h2>
+                <p>Comprehensive maintenance services to keep your car running at peak performance.</p>
+            </div>
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service2.jpg') }}" alt="Customization" class="service-icon">
+                <h2>Customizations</h2>
+                <p>Tailor your car to reflect your style with our exclusive customization options.</p>
+            </div>
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service3.jpg') }}" alt="Financing" class="service-icon">
+                <h2>Flexible Financing</h2>
+                <p>We offer a range of financing plans to make owning your dream car easier.</p>
+            </div>
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service4.jpg') }}" alt="Trade-In" class="service-icon">
+                <h2>Trade-In Program</h2>
+                <p>Upgrade to luxury by trading in your current vehicle for top value.</p>
+            </div>
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service5.jpg') }}" alt="Warranty" class="service-icon">
+                <h2>Extended Warranty</h2>
+                <p>Drive with confidence with our extended warranty plans tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+                <img src="{{ url_for('static', filename='images/service6.jpg') }}" alt="Delivery" class="service-icon">
+                <h2>Home Delivery</h2>
+                <p>Enjoy convenient delivery of your luxury vehicle directly to your doorstep.</p>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>LUXURY Motors</h3>
+          <p>
+            Welcome to our premium car showcase website, where innovation meets
+            luxury. Explore top-notch vehicles with detailed features, stunning
+            visuals, and personalized options to find your dream car.
+          </p>
+        </div>
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Service</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p><strong>Email:</strong> info@LUXURY Motors.com</p>
+      <p><strong>Phone:</strong> +1 234 567 890</p>
+      <p>
+        <strong>Address:</strong> 123 Babar Azam Street, Dubai
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 LUXURY Motors. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | LUXURY Motors</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='about.css') }}"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-abt">
+        <img
+          src="{{ url_for('static', filename='images/logo.jpg') }}"
+          alt="Logo"
+        />
+      </div>
+      <div><h2 class="other">LUXURY Motors</h2></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Service</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-abt">
+      <video
+        src="{{ url_for('static', filename='videos/ferrari.mp4') }}"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+    </div>
+    <div class="txt-abt">
+    <h1>About Us</h1>
+    <p>
+      Driven by Passion, Defined by Excellence – Discover the Heart of LUXURY
+      Motors.
+    </p>
+    <h2><a href="#1">MORE</a></h2>
+  </div>
+
+  <section class="cards-container" id="1">
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/vision.jpg') }}" alt="Vision" class="card-image">
+        <div class="card-content">
+            <h3>Our Vision</h3>
+            <p>To revolutionize the luxury car industry by offering unparalleled quality and customer service.</p>
+            <p>We aim to provide an exclusive driving experience that combines innovation with sophistication.</p>
+            <p>Our commitment is to the future of automotive excellence.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="What We Offer" class="card-image">
+        <div class="card-content">
+            <h3>What We Offer</h3>
+            <p>Explore a curated collection of luxury cars tailored to your unique taste and style.</p>
+            <p>We offer customizations, maintenance, and financing plans that fit your needs.</p>
+            <p>Your dream car is just a visit away!</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/abt3.jpg') }}" alt="About Us" class="card-image">
+        <div class="card-content">
+            <h3>About Us</h3>
+            <p>At LUXURY Motors, we believe in providing only the finest vehicles and services.</p>
+            <p>Our team of experts ensures every customer receives personalized care.</p>
+            <p>We are passionate about delivering an exceptional automotive experience.</p>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>LUXURY Motors</h3>
+          <p>
+            Welcome to our premium car showcase website, where innovation meets
+            luxury. Explore top-notch vehicles with detailed features, stunning
+            visuals, and personalized options to find your dream car.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Service</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p><strong>Email:</strong> info@LUXURY Motors.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p>
+            <strong>Address:</strong> 123 Babar Azam Street, Dubai
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 LUXURY Motors. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
